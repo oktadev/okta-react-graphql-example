@@ -1,0 +1,9 @@
+type Points {
+  id: Int
+  date: Date
+  exercise: Int
+  diet: Int
+  alcohol: Int
+  notes: String
+  user: User
+}

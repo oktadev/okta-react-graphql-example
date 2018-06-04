@@ -1,0 +1,10 @@
+type Query {
+  points: [Points]
+  pointsGet(id: Int): Points
+  users: [User]
+}
+
+type Mutation {
+  pointsSave(id: Int, date: Date, exercise: Int, diet: Int, alcohol: Int, notes: String): Points
+  pointsDelete(id: Int): Boolean
+}
