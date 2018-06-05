@@ -1,7 +1,4 @@
-# okta-react-graphql-example
-Health Tracking App with React, GraphQL, and TypeORM
-
-# A Health Tracking App with React, GraphQL, and TypeORM
+# Health Tracking App with React, GraphQL, and TypeORM
 
 This example app shows how to use React, GraphQL, and TypeORM to build a health tracking app and add authentication with Okta.
 
