@@ -2,7 +2,7 @@
 
 This example app shows how to use React, GraphQL, and TypeORM to build a health tracking app and add authentication with Okta.
 
-<!--Please read [Build a Health Tracking App with React and GraphQL, and TypeORM]() to see how this app was created.-->
+Please read [Build a Health Tracking App with React and GraphQL, and TypeORM](https://developer.okta.com/blog/2018/07/11/build-react-graphql-api-user-authentication) to see how this app was created.
 
 **Prerequisites:** [Node.js](https://nodejs.org/).
 
@@ -59,7 +59,7 @@ Open `graphql-api/index.ts` and replace `{yourOktadomain}` and `{yourClientId}` 
 ```ts
 const oktaJwtVerifier = new OktaJwtVerifier({
   clientId: '{yourClientId}',
-  issuer: 'https://{yourOktaDomain}.com/oauth2/default'
+  issuer: 'https://{yourOktaDomain}/oauth2/default'
 });
 ```
 
